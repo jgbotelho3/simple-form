@@ -5,7 +5,7 @@ const Container = styled.div`
     width: 100%;
     max-width: ${props => (props.width? props.width: '1440px')};
     height: ${props => (props.height? props.height: '100vh')};
-    background: ${props => (props.bg? props.bg: '#231F20')};
+    background: ${props => (props.bg? props.bg: '')};
     display: flex;
     flex-direction: ${props => (props.direction? props.direction: 'column')};
     align-items:${props => (props.align? props.align: 'start')};

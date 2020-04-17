@@ -9,6 +9,7 @@ const GlobalStyle = createGlobalStyle`
         outline: none;   
     }
 
+
     button{
       outline: none;
       border: none;

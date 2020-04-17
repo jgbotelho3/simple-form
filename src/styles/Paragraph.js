@@ -4,9 +4,10 @@ const Paragraph = styled.p`
   display: flex;
   align-items: start !important;
   justify-content: start !important;
-  font-size: 12px;
+  margin: ${props => (props.margin ? props.margin : '')};
+  font-size: ${props => (props.font ? props.font : '12px')};
   font-weight: 400;
-  color: #000;
+  color: ${props => (props.fontColor ? props.fontColor : '#fafaca')};
   padding-top: 2px;
 `;
 
